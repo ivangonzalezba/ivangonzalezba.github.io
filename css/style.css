@@ -1,0 +1,13 @@
+h1 {
+    margin: 10px 0;
+    display: block;
+    background: darkorange;
+    text-align: center;
+    position: sticky;
+}
+
+#btnDarkMode {
+    margin-left: 5px;
+    position: absolute;
+    top: 20px;
+}
