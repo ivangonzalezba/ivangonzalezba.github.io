@@ -9,3 +9,7 @@ body {
 #btnDarkMode {
     background: #2f4f4f;
 }
+
+[mode=darkmode] {
+    background: #808080;
+}
