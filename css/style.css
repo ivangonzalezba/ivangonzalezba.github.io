@@ -1,12 +1,16 @@
-h1 {
+.cabecera {
     display: block;
-    background: darkorange;
-    color: whitesmoke;
-    text-align: center;
     position: sticky;
+    top: 0;
+    background: #ff8c00;
 }
 
-.contenedorDarkMode {
+.cabecera__h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cabecera__contenedorDarkMode {
     display: block;
     position: absolute;
     width: 110px;
@@ -15,9 +19,11 @@ h1 {
     border-radius: 5px;
     background: #f5f5f5;
     top: 10px;
+    right: 0;
+    margin-right: 8px;
 }
 
-.contenedorDarkMode__input {
+.cabecera__contenedorDarkMode-input {
     display: absolute;
     margin-top: -19px;
     margin-left: 80px;
@@ -25,6 +31,32 @@ h1 {
     height: 60px;
 }
 
-.contenedorDarkMode__p {
+.cabecera__contenedorDarkMode-p {
     position: absolute;
+}
+
+.nav {
+    height: 35px;
+    width: 350px;
+    background: #ff8c00;
+}
+
+.nav__1,
+.nav__2,
+.nav__3 {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.nav__1::placeholder,
+.nav__2::placeholder,
+.nav__3::placeholder {
+    color: #f5f5f5;
+}
+
+.parrafo {
+    width: 25%;
+    margin: auto;
+    font-size: 30px;
 }

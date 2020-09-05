@@ -1,7 +1,7 @@
 /*obtener el link style*/
 var cssDarkMode = document.querySelector('.cssDarkMode');
 /*obtener el input darkmode*/
-var botonDarkMode = document.querySelector('.contenedorDarkMode__input');
+var botonDarkMode = document.querySelector('.cabecera__contenedorDarkMode-input');
 /*obtener el valor de darkmode de localstorage*/
 if (localStorage.getItem('Iag_Web_DarkMode')) {
     let darkmode = localStorage.getItem('Iag_Web_DarkMode');
@@ -15,7 +15,7 @@ if (localStorage.getItem('Iag_Web_DarkMode')) {
 } else {
     localStorage.setItem('Iag_Web_DarkMode', 'false');
 }
-
+/*si cambia el estado del imput darkmode, se modifica el vinculo con css*/
 botonDarkMode.addEventListener('change', function () {
     let darkmode = localStorage.getItem("Iag_Web_DarkMode");
     if (darkmode == 'false') {

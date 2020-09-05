@@ -10,6 +10,10 @@ body {
     background: #2f4f4f;
 }
 
-[mode=darkmode] {
-    background: #808080;
+.cabecera {
+    background: #808080 !important;
+}
+
+.nav {
+    background: #808080 !important;
 }
