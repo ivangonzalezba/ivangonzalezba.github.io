@@ -9,3 +9,11 @@ body {
 #btnDarkMode {
     background: #2f4f4f;
 }
+
+.cabecera {
+    background: #808080 !important;
+}
+
+.nav {
+    background: #808080 !important;
+}
