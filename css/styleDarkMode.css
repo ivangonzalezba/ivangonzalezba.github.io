@@ -6,14 +6,28 @@ body {
     background: #2f4f4f;
 }
 
-#btnDarkMode {
-    background: #2f4f4f;
-}
-
 .cabecera {
     background: #808080 !important;
 }
 
-.nav {
-    background: #808080 !important;
+.cabecera__contenedorDarkMode {
+    background: #979797;
+}
+
+.cabecera__contenedorDarkMode-p {
+    color: #f5f5f5;
+}
+
+.nav__1,
+.nav__2,
+.nav__3 {
+    background: #979797 !important;
+    color: #f5f5f5;
+}
+
+.nav__1:hover,
+.nav__2:hover,
+.nav__3:hover {
+    background: #bbbbbb !important;
+    color: #2f4f4f;
 }
