@@ -1,13 +1,21 @@
+body {
+    background: #e6e6e6;
+}
+
 .cabecera {
-    display: block;
+    display: flex;
     position: sticky;
     top: 0;
+    height: 42px;
     background: #ff8c00;
 }
 
-.cabecera__h1 {
+.cabecera__p {
     color: #f5f5f5;
     text-align: center;
+    font-size: 30px;
+    margin: auto;
+    text-shadow: 3px 3px 5px #4e4e4e;
 }
 
 .cabecera__contenedorDarkMode {
@@ -17,7 +25,7 @@
     height: 22px;
     padding: 0 3px;
     border-radius: 5px;
-    background: #f5f5f5;
+    background: #ffa12e;
     top: 10px;
     right: 0;
     margin-right: 8px;
@@ -32,27 +40,39 @@
 }
 
 .cabecera__contenedorDarkMode-p {
+    color: #f5f5f5;
     position: absolute;
 }
 
 .nav {
+    display: flex;
     height: 35px;
-    width: 350px;
-    background: #ff8c00;
+    width: fit-content;
+    background: transparent;
 }
 
 .nav__1,
 .nav__2,
 .nav__3 {
-    display: inline-block;
     width: 100px;
+    padding-top: 5px;
+    background: #ffa12e;
+    color: #f5f5f5;
     text-align: center;
+    text-decoration: none;
+    border-bottom-right-radius: 10px;
 }
 
-.nav__1::placeholder,
-.nav__2::placeholder,
-.nav__3::placeholder {
-    color: #f5f5f5;
+.nav__2,
+.nav__3 {
+    border-bottom-left-radius: 10px;
+}
+
+.nav__1:hover,
+.nav__2:hover,
+.nav__3:hover {
+    background: #fdb051;
+    color: #c06a00;
 }
 
 .parrafo {
