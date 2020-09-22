@@ -1,5 +1,5 @@
 body {
-    background: #e6e6e6;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
 
 .contenedorPrincipal {
@@ -80,14 +80,18 @@ body {
 
 .vidriera {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 150px;
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .vidriera__1,
 .vidriera__2,
 .vidriera__3 {
+    display: flex;
     margin: auto;
     width: 100px;
     height: 100px;
@@ -102,7 +106,7 @@ body {
 }
 
 .principal {
-    background: lightsteelblue;
+    padding: 10px;
 }
 
 .pie {
